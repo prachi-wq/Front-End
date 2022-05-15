@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Regestration Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC">
+    <!-- <script src='main.js'></script> -->
+    <link rel="script" href="script.js">
+
+
+    <style>
+        #Nav_bar {
+            background-color: rgb(224, 63, 63);
+        }
+    </style>
+
+
+
+
+
+</head>
+
+<body style="background-color: rgb(160, 160, 184);">
+
+    <form>
+        <h1 style="text-align:center"> Registration Form</h1>
+        <div class="container-fliud" id="Nav_bar">
+            <nav class="navbar navbar-expend-lg navbar-dark bg-primary">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item"> <a href="index.html" class="active"> home    </a></li>
+
+
+                    <li class="nav-item"> <a href="gallary.html" class="nav-link "> Gallary    </a> </li>
+                    <li class="nav-item"> <a href="#" class="nav-link"> contactus    </a> </li>
+                </ul>
+
+            </nav>
+        </div>
+        <table align="center" border="5">
+            <tr>
+                <td>
+                    Firstname:
+                </td>
+                <td>
+                    <input type="text" name="fname" placeholder="firstname" id="input1" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Lastname:
+                </td>
+                <td>
+                    <input type="text" name="lname" placeholder="lasttname" id="input2" required>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>
+                    <input type="password" name="password" placeholder="password" id="input3" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Confirm Password:
+                </td>
+                <td>
+                    <input type="password" name="con_password" placeholder="password" id="input4" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone number:
+                </td>
+                <td>
+                    <input type="phone" name="phone_no" placeholder="Phno" id="input5" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email id:
+                </td>
+                <td>
+                    <input type="Email" name="Email_id" placeholder="Email@id" required>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <input align="center" type="Submit" value="submit" id="btn1">
+                </td>
+            </tr>
+        </table>
+
+
+
+    </form>
+    <a href="contactus.html"><button>Test</button></a>
+
+
+
+</body>
+
+</html>

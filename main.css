@@ -1,0 +1,42 @@
+#btn1 {
+    font-size: 12px;
+    border-radius: 4px;
+    height: 30px;
+    width: 70px;
+    /* text-align: center;
+ align-items: center; */
+}
+
+#input1 #input2 #input3 #input4 #input5 {
+    font-size: 35px;
+    font-family: "Monotype Corsiva";
+    color: brown;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 14px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: black;
+    border-radius: 12px;
+}
+
+li a:hover {
+    background-color: red;
+    border-radius: 12px;
+}
+
+h1 {
+    background-color: greenyellow;
+    font-size: 35px;
+    color: white;
+}
